@@ -43,11 +43,6 @@ a {
   color: #434455;
 }
 
-.footer {
-  background-color: #2e2f42;
-  color: #f4f4fd;
-}
-
 /* Header */
 .header {
   background-color: #fff;
@@ -111,6 +106,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   color: #fff;
+  letter-spacing: 0.02em;
   text-align: center;
 }
 
@@ -136,4 +132,10 @@ a {
 
 .team-member {
   background-color: #fff;
+}
+.footer {
+  background-color: #2e2f42;
+}
+.footer-text {
+  color: #f4f4fd;
 }
