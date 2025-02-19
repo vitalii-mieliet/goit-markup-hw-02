@@ -6,7 +6,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   line-height: 1.5;
-  letter-spacing: 2%;
+  letter-spacing: 0.02em;
 }
 
 ul,
@@ -18,85 +18,89 @@ a {
   text-decoration: none;
 }
 
-/* Header */
-.header {
-  background-color: #2e2f42;
-}
-.header-menu-item-link {
-  font-weight: 500;
-  color: #2e2f42;
-}
-
-.header-contacts-item-link {
-  color: #434455;
-}
-.header-title {
+h1 {
   font-weight: 700;
   font-size: 56px;
-  line-height: 107%;
-  text-align: center;
+  line-height: 1.07;
   color: #fff;
 }
 
-.header-button {
+H2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  color: #2e2f42;
+}
+H3 {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+
+footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+button {
+  border-radius: 4px;
+  width: 169px;
+  height: 56px;
   font-weight: 500;
   letter-spacing: 0.04em;
   color: #fff;
   background-color: #4d5ae5;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
 }
 
-/* Core ptincipals */
+button:hover,
+button:focus {
+  background-color: #404bbf;
+}
 
-.core-principles-item-title {
+/* Header */
+.header {
+  background-color: #fff;
+}
+.nav-link {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
   color: #2e2f42;
 }
-
-/* Our team */
-
-.team {
-  background-color: #f4f4fd;
-  text-align: center;
-}
-.team-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
-  color: #2e2f42;
-}
-
-.team-member-name {
+.nav-link-studio {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
   color: #2e2f42;
 }
 
-/* Our Portfolio */
-
-.portfolio {
-  text-align: center;
+.nav-link:hover,
+.nav-link:focus {
+  color: #404bbf;
 }
 
-.portfolio-title {
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111%;
+.nav-link-studio:hover,
+.nav-link-studio:focus {
+  color: #404bbf;
+}
+
+.nav-link-studio:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.contacts-link {
   color: #2e2f42;
 }
-.project-name {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 120%;
-  color: #2e2f42;
+
+.contacts-link:hover,
+.contacts-link:focus {
+  color: #404bbf;
 }
 
-.footer {
+.header-content {
   background-color: #2e2f42;
+  text-align: center;
 }
 
-.footer-text {
-  color: #f4f4fd;
+.team-section {
+  background-color: #f4f4fd;
 }
