@@ -18,50 +18,57 @@ a {
   text-decoration: none;
 }
 
-h1 {
-  font-weight: 700;
-  font-size: 56px;
-  line-height: 1.07;
-  color: #fff;
-}
-
-H2 {
+.heading-two {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   color: #2e2f42;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
 }
-H3 {
+.heading-three {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
   color: #2e2f42;
 }
 
-footer {
+.paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.footer {
   background-color: #2e2f42;
   color: #f4f4fd;
-}
-
-button {
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  font-weight: 500;
-  letter-spacing: 0.04em;
-  color: #fff;
-  background-color: #4d5ae5;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
-}
-
-button:hover,
-button:focus {
-  background-color: #404bbf;
 }
 
 /* Header */
 .header {
   background-color: #fff;
+}
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-part {
+  color: #2e2f42;
+}
+
+.logo-part-footer {
+  color: #f4f4fd;
 }
 .nav-link {
   font-weight: 500;
@@ -77,30 +84,56 @@ button:focus {
   color: #404bbf;
 }
 
-.nav-link-studio:hover,
-.nav-link-studio:focus {
-  color: #404bbf;
-}
-
 .nav-link-studio:active {
   color: #404bbf;
   text-decoration: underline;
 }
 
+.contacts {
+  font-style: normal;
+}
+
 .contacts-link {
-  color: #2e2f42;
+  color: #434455;
 }
 
 .contacts-link:hover,
 .contacts-link:focus {
   color: #404bbf;
 }
-
+/* Header content */
 .header-content {
   background-color: #2e2f42;
+}
+
+.header-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  color: #fff;
   text-align: center;
+}
+
+.header-button {
+  background-color: #4d5ae5;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  cursor: pointer;
+}
+
+.header-button:hover,
+.header-button:focus {
+  background-color: #404bbf;
 }
 
 .team-section {
   background-color: #f4f4fd;
+}
+
+.team-member {
+  background-color: #fff;
 }
